@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio for Mac
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VuforiaScripts", "VuforiaScripts.csproj", "{5283D844-8A09-0AAC-356E-840B2A17360D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{C650C374-092C-2AB6-272B-3F6205236FA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VuforiaScripts", "VuforiaScripts.csproj", "{5283D844-8A09-0AAC-356E-840B2A17360D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VuforiaEditorScripts", "VuforiaEditorScripts.csproj", "{854516CA-2E9C-3286-C6F0-2AC8F22DAAB5}"
 EndProject
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5283D844-8A09-0AAC-356E-840B2A17360D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5283D844-8A09-0AAC-356E-840B2A17360D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5283D844-8A09-0AAC-356E-840B2A17360D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5283D844-8A09-0AAC-356E-840B2A17360D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C650C374-092C-2AB6-272B-3F6205236FA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C650C374-092C-2AB6-272B-3F6205236FA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C650C374-092C-2AB6-272B-3F6205236FA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C650C374-092C-2AB6-272B-3F6205236FA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5283D844-8A09-0AAC-356E-840B2A17360D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5283D844-8A09-0AAC-356E-840B2A17360D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5283D844-8A09-0AAC-356E-840B2A17360D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5283D844-8A09-0AAC-356E-840B2A17360D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{854516CA-2E9C-3286-C6F0-2AC8F22DAAB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{854516CA-2E9C-3286-C6F0-2AC8F22DAAB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{854516CA-2E9C-3286-C6F0-2AC8F22DAAB5}.Release|Any CPU.ActiveCfg = Release|Any CPU

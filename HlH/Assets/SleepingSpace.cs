@@ -70,7 +70,7 @@ public class SleepingSpace : MonoBehaviour {
 
     protected void Open() {
         //transform.position.Set(transform.position.x, transform.position.y, transform.position.z + 0.01f);
-        transform.localPosition = new Vector3(transform.position.x - StepAmount, transform.position.y, transform.position.z);
+        transform.localPosition = new Vector3(transform.localPosition.x - StepAmount, transform.localPosition.y, transform.localPosition.z);
         TranslationCounter++;
 
         // End translation
@@ -81,7 +81,7 @@ public class SleepingSpace : MonoBehaviour {
 
     protected void Close() {
         //transform.position.Set(transform.position.x, transform.position.y, transform.position.z - 0.01f);
-        transform.localPosition = new Vector3(transform.position.x + StepAmount, transform.position.y, transform.position.z);
+        transform.localPosition = new Vector3(transform.localPosition.x + StepAmount, transform.localPosition.y, transform.localPosition.z);
         TranslationCounter--;
 
         // End translation
